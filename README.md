@@ -1,2 +1,2 @@
-# CallMan
-A simple calling application developed in Flutter.
+# CallMan - WiFi varient
+A simple calling over Wifi application developed in Flutter.
