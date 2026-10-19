@@ -33,7 +33,7 @@ The MVP delivers end-to-end functionality allowing any two devices on the same W
 
 ## 3. MVP Scope Definition (P0 Features)
 
-The MVP strictly encompasses features prioritized as **P0** in the [PRD](file:///home/champ/Storage/Github/Repositories/CallMan/Artifacts/PRD.md#L73-L88).
+The MVP strictly encompasses features prioritized as **P0** in [PRD.md §3](PRD.md#3-feature-list-prioritized).
 
 | Feature ID | Feature Name | MVP Scope & Technical Implementation |
 |---|---|---|
@@ -205,7 +205,7 @@ sequenceDiagram
 
 A feature or milestone is considered complete for the MVP only when:
 
-1. **Protocol Compliance:** Packets strictly match binary specifications outlined in [SystemDesign.md §4](file:///home/champ/Storage/Github/Repositories/CallMan/Artifacts/SystemDesign.md#L260-L289).
+1. **Protocol Compliance:** Packets strictly match binary specifications outlined in [SystemDesign.md §4](SystemDesign.md#4-protocol-specification).
 2. **Quality Gates Passed:**
    - Zero errors reported by `flutter analyze`.
    - All unit tests for packet serialization, reframing, and jitter buffer pass (`flutter test`).
